@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_title">50dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="padding_main">16dp</dimen>
+    <dimen name="margin_main">16dp</dimen>
+    <dimen name="title_wordsize">18sp</dimen>
+    <dimen name="wordsize_small">12sp</dimen>
+    <dimen name="wordsize_small_14">14sp</dimen>
+    <dimen name="word_size_16">16sp</dimen>
+    <dimen name="word_size_main">17sp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+</resources>

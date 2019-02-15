@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_line_h">#f5f5f5</color>
+    <color name="common_white">#ffffff</color>
+    <color name="red_alert">#FF5544</color>
+    <color name="blue_message_noread">#38BBFF</color>
+    <color name="gray_light">#BDBDBD</color>
+
+</resources>
+

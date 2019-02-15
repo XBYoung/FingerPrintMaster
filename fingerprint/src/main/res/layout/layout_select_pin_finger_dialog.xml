@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="@dimen/margin_main"
+        android:layout_marginBottom="@dimen/margin_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/fingerinput"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/verify_finger"
+    android:textStyle="bold"
+    android:textSize="@dimen/word_size_main"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/to_verify_finger"
+        android:textSize="@dimen/wordsize_small_14"
+        />
+    <TextView
+        android:id="@+id/tv_remian"
+        android:textColor="@color/red_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remian_count"
+        android:textSize="@dimen/wordsize_small_14"
+        android:layout_marginBottom="@dimen/margin_main"/>
+    <include layout="@layout/line_h"/>
+
+    <include layout="@layout/line_h"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_cancel"
+        android:padding="@dimen/margin_main"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:textSize="@dimen/word_size_main"
+        android:textColor="@color/blue_message_noread"/>
+</LinearLayout>

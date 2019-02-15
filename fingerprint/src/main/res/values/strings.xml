@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FingerPrint</string>
+    <string name="verify_finger">指纹验证</string>
+    <string name="to_verify_finger">请验证已有指纹，完成操作</string>
+    <string name="cancel">取消</string>
+    <string name="remian_count">剩余次数:%1$d</string>
+    <string name="verify_fail">验证失败</string>
+</resources>
